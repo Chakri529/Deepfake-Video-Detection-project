@@ -1,0 +1,23 @@
+## Datasets
+The project uses several publicly available deepfake datasets:
+
+1. **DeepFake Detection Challenge Dataset (DFDC)**
+   - **Source**: [Kaggle DFDC](https://www.kaggle.com/c/deepfake-detection-challenge/data)
+   - **Details**: Large dataset with labeled real and fake videos.
+
+2. **Celeb-DF Dataset**
+   - **Source**: [Celeb-DF](http://www.cs.albany.edu/~lsw/celeb-deepfakeforensics.html)
+   - **Details**: A dataset of deepfake videos featuring celebrities.
+
+3. **FaceForensics++ Dataset**
+   - **Source**: [FaceForensics++](https://github.com/ondyari/FaceForensics)
+   - **Details**: Videos manipulated using various face-swap techniques.
+
+4. **DeeperForensics-1.0**
+   - **Source**: [DeeperForensics-1.0](https://github.com/EndlessSora/DeeperForensics-1.0)
+   - **Details**: Contains challenging videos under various compression settings.
+
+### How to Use Datasets
+- Download the datasets from the links provided above.
+
+
