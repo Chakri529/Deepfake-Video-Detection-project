@@ -16,3 +16,8 @@ This project aims to detect **deepfake videos** by analyzing video frames and id
    - **GRU** processes the sequence of features from multiple frames to make a prediction.
 3. **Prediction**: The model predicts whether the input video contains deepfake content or is authentic.
 
+### Extra Features
+- **Face Detection**: Extracts faces from video frames using OpenCV's Haar cascades.
+- **Model Architecture**: Combines **ResNet50V2** for feature extraction and **GRU** for temporal analysis of frames.
+- **Binary Classification**: Outputs whether a video is real or fake.
+- **Evaluation**: Provides metrics such as accuracy and loss for model performance.
