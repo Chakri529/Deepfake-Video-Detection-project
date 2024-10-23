@@ -1,0 +1,18 @@
+# Deepfake Video Detection
+
+## Overview
+This project aims to detect **deepfake videos** by analyzing video frames and identifying fake content using a **deep learning** model. The system combines **ResNet50V2** for feature extraction and **GRU** (Gated Recurrent Units) for temporal sequence modeling, classifying videos as real or fake.
+
+## Features
+- Extracts faces from video frames for analysis.
+- Uses **ResNet50V2** for powerful image feature extraction.
+- Implements a **GRU-based recurrent network** to handle sequential frame data.
+- Binary classification: outputs whether a video is **Real** or **Fake**.
+
+## How It Works
+1. **Preprocessing**: Video frames are extracted and faces are detected using OpenCV.
+2. **Model**: 
+   - **ResNet50V2** extracts features from each video frame.
+   - **GRU** processes the sequence of features from multiple frames to make a prediction.
+3. **Prediction**: The model predicts whether the input video contains deepfake content or is authentic.
+
